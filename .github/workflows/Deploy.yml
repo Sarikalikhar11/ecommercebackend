@@ -26,6 +26,6 @@ jobs:
       - name : add heroku remote
         run: git remote add heroku https://heroku:d1b10d6f-9baf-4b51-8b0b-5984d362b8f8@git.heroku.com/server-ecomm.git
       - name: fetch the repo
-        run: git fetch --unshallow      d1b10d6f-9baf-4b51-8b0b-5984d362b8f8
+        run: git fetch --unshallow      
       - name: push to heroku
         run: git push heroku master --force
