@@ -20,12 +20,12 @@ jobs:
       - run: npm install
       - run: npm run build
       - name : add git username
-        run: git config --global user.name 'kartik18g'
+        run: git config --global user.name 'Sarikalikhar11'
       - name : add git email
-        run: git config --global user.email 'gupta.kartik18kg@gmail.com'
+        run: git config --global user.email 'sarikalikhar2619@gmail.com'
       - name : add heroku remote
-        run: git remote add heroku https://heroku:8f02f5f0-2d3b-4a74-91c6-34e327b72808@git.heroku.com/devtown-tshirt-backend.git
+        run: git remote add heroku https://heroku:d1b10d6f-9baf-4b51-8b0b-5984d362b8f8@git.heroku.com/server-ecomm.git
       - name: fetch the repo
-        run: git fetch --unshallow
+        run: git fetch --unshallow      d1b10d6f-9baf-4b51-8b0b-5984d362b8f8
       - name: push to heroku
         run: git push heroku master --force
